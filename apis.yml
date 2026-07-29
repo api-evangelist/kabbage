@@ -1,8 +1,26 @@
 aid: kabbage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kabbage.png
 name: Kabbage
-description: 'Kabbage is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kabbage was an Atlanta-based financial technology company (founded 2009) that pioneered fully
+  automated, data-driven cash-flow lending to small businesses, offering flexible lines of credit, online
+  bill payment, cash-flow visualization, and business checking. It exposed a B2B "Kabbage Platform" lending-as-a-service
+  API (formerly documented at kabbageplatform.com) and was backed by the SoftBank Vision Fund. American Express
+  announced its acquisition of substantially all of Kabbage in August 2020; the products were folded into
+  American Express Business Blueprint and the standalone Kabbage developer platform was discontinued. As of
+  this enrichment pass no independent Kabbage public API, developer portal, or specification is reachable —
+  kabbage.com redirects to americanexpress.com/business/blueprint and the former developer hosts no longer
+  resolve.'
 url: https://raw.githubusercontent.com/api-evangelist/kabbage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,29 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by American Express (Aug 2020); folded into American Express Business Blueprint. Standalone Kabbage developer platform discontinued; no independent public API surface reachable.
+x-acquired-by: american-express
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Small Business Lending
+- Cash Flow
+- Working Capital
+- Payments
+- Financial Services
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
