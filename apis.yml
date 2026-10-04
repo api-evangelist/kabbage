@@ -52,7 +52,7 @@ tags:
 - Cash Flow
 - Working Capital
 - Payments
-- Financial-Services
+- Financial Services
 - Acquired
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Payments
 - Financial Services
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
